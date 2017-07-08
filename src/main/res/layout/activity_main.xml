@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.efficare.vishw.efficare.MainActivity">
+
+    <Button
+        android:id="@+id/doc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00ff00"
+        android:text="For Doctor"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <Button
+        android:id="@+id/pat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00ff00"
+        android:text="For Patient"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <Button
+        android:id="@+id/phy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#00ff00"
+        android:text="For Pharmacy"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="332dp" />
+</android.support.constraint.ConstraintLayout>
